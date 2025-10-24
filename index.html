@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tyler Sellin</title>
+  <meta name="description" content="Tyler Sellin — computer science student looking for internships. Projects, resume, contact." />
+  <meta name="author" content="Tyler Sellin" />
+
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Simple styling (single-file site) -->
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#06b6d4}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; background:linear-gradient(360deg,#071023 0%, var(--bg) 100%); color:#e6eef6}
+    a{color:var(--accent);text-decoration:none}
+    .site{max-width:980px;margin:48px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .avatar{width:64px;height:64px;border-radius:10px;background-image:url("me.jpg");background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.03);}
+
+    main{display:grid;grid-template-columns:1fr 340px;gap:28px;margin-top:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,0.03)}
+    .projects .project{padding:12px;border-radius:10px;background:rgba(0,0,0,0.06);margin-bottom:12px}
+    .projects h2,.about h2,.contact h2{margin:0 0 8px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:999px;font-size:13px}
+    aside .card{position:sticky;top:24px}
+    footer{text-align:center;color:var(--muted);margin-top:36px;padding-bottom:24px}
+
+    /* responsive */
+    @media (max-width:980px){main{grid-template-columns:1fr;}.avatar{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <div class="brand">
+        <div class="avatar">Y</div>
+        <div>
+          <h1>Tyler Sellin</h1>
+          <p class="lead">Computer Science and Data Science student • Seeking summer internships</p>
+        </div>
+      </div>
+
+      <nav>
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="#resume">Resume</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article class="card about">
+          <h2>Bio</h2>
+          <p>Hello world! I'm Tyler Sellin. I'm a student at the University of Oregon majoring in computer science and data science, with a minor in math.</p>
+
+          <h3 style="margin-top:14px;margin-bottom:8px">Skills</h3>
+          <div class="skills">
+            <span class="chip">C</span>
+            <span class="chip">C++</span>
+            <span class="chip">C#</span>
+            <span class="chip">Python</span>
+            <span class="chip">R</span>
+            <span class="chip">Java</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">Numpy</span>
+            <span class="chip">Scikit-learn</span>
+            <span class="chip">Matplotlib</span>
+            <span class="chip">Seaborn</span>
+            <span class="chip">Linux OS</span>
+            <span class="chip">Unix OS</span>
+            <span class="chip">Git</span>
+            <span class="chip">.NET MAUI</span>
+            <span class="chip">Visual Studio 2022</span>
+            <span class="chip">Visual Studio Code</span>
+            <span class="chip">Eclipse</span>
+            <span class="chip">VIM</span>
+            <span class="chip">RSTUDIO</span>
+            <span class="chip">Jupyter</span>
+          </div>
+
+          <h3 style="margin-top:14px;margin-bottom:8px">About Me</h3>
+          <p class="lead">I'm a junior studying CS and DSCI here at UO. I am from Fort Collins, Colorado. I love playing and watching sports, and love to chat about them as well.
+            I am a huge Liverpool fan, and also love the Packers, Brewers, Bucks, and Avalanche, as well as being a big Ducks fan. I am a big runner, and hope to complete the Eugene
+            Half Marathon in April, injury permitting. I also enjoy solving Rubik's Cubes, and even go to competitions sometimes. If anyone wants to chat, feel free to reach out!
+          </p>
+        </article>
+
+        <article id="projects" class="card projects" style="margin-top:18px">
+          <h2>Selected projects</h2>
+
+          <div class="project">
+            <h4>Project One — <a href="#">Coming soon</a></h4>
+            <p class="lead">Coming soon</p>
+          </div>
+
+          <div class="project">
+            <h4>Project Two — <a href="#">Coming soon</a></h4>
+            <p class="lead">Coming soon</p>
+          </div>
+
+          <p style="margin-top:12px">More projects: <a href="https://github.com/tsellin62">github.com/tsellin62</a></p>
+        </article>
+
+        <article id="contact" class="card contact" style="margin-top:18px">
+          <h2>Contact</h2>
+          <p class="lead">Email: <a href="mailto:tsellin99@gmail.com">tsellin99@gmail.com</a></p>
+          <p class="lead">Phone: <a></a>(970)-278-7390</a></p>
+          <p class="lead">LinkedIn: <a href="https://linkedin.com/in/tyler-sellin-a6489a339">linkedin.com/in/tyler-sellin-a6489a339</a></p>
+          <p class="lead">Resume: <a id="resume" href="/resume.pdf" target="_blank">Download PDF</a></p>
+        </article>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3>Quick stats</h3>
+          <p class="lead">4.00 GPA • Graduating Spring 2026</p>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:12px 0" />
+
+          <h3>Contact</h3>
+          <p class="lead">tsellin99@gmail.com</p>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:12px 0" />
+
+          <h3>Open To</h3>
+          <p class="lead">Available for internships</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <small><a href="https://github.com/tsellin62">github.com/tsellin62</a></small>
+    </footer>
+  </div>
+</body>
+</html>
