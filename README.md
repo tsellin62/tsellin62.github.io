@@ -1,1 +1,1 @@
-# Welcome to my website! There is more to come, as this is just the start of the site. I will be getting a headshot taken on November 9, after which I will upload that instead of the current(poor) photo. I will also be uploading a couple projects very soon. Stay tuned!
+# Welcome to my website! There is more to come, as this is just the start of the site. I will be getting a headshot taken soon, after which I will upload that instead of the current(poor) photo. Please feel free to reach out
